@@ -16,6 +16,7 @@ This is a real time application that, when the sender is speaking, sound is capt
 1. Clone the repository
 2. **Task1** -  Implement voice communication between two parties
 3. **Task2** -  Extend the application to support multi-party call conferencing
+4. Results for each task can be view from [Report.pdf](https://github.com/ishaniMadhuwanthi/VoCe-Voice-Conference/blob/master/Report.pdf)
 
 ------------------------------
 ### **To voice communication between two parties**
