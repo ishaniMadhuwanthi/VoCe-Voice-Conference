@@ -22,19 +22,15 @@ This is a real time application that, when the sender is speaking, sound is capt
 
 Use Task1 folder to get communication between two parties. Program can be run as following.
 
-```Java
-**javac CaptureSound.java**
-java CaptureSound <receiver IP>
-```
-Eg:- If client1 : 192.168.1.101
+     javac CaptureSound.java
+     java CaptureSound <receiver IP>
 
-        client2 : 192.168.1.102 
+Eg:- If **client1 : 192.168.1.101** and  **client2 : 192.168.1.102** 
         
 client1 should run 
-     ```java
+    
      java CaptureSound 192.168.1.102
-     ```
-
+     
 #### Procedure
 
 1.When the program is started, sender sends message. It stores in data packets.
@@ -50,9 +46,7 @@ client1 should run
 
 To start the program, when running the program the command line argument should differ from peer-to-peer communication between two parties.
 
-```java
-javac Capture 224.0.0.0        <224.0.0.0 is the multicast IP address for every device connected>
-```
+    javac Capture 224.0.0.0        <224.0.0.0 is the multicast IP address for every device connected>
 
 #### Procedure
 
