@@ -27,17 +27,20 @@ Use Task1 folder to get communication between two parties. Program can be run as
 java CaptureSound <receiver IP>
 ```
 Eg:- If client1 : 192.168.1.101
+
         client2 : 192.168.1.102 
         
 client1 should run 
-     ```Java
+     ```java
      java CaptureSound 192.168.1.102
      ```
 
 #### Procedure
 
 1.When the program is started, sender sends message. It stores in data packets.
+
 2.Then the packets are send to a specified receiver through wifi, who is connected to the same wifi network with sender.
+
 3.The sender should press “ENTER” to send the audio message to the receiver client for capturing. At  the same time, receiver also should press “ENTER” for playing the received audio message.Then they can hear what sender is saying.
 
 
@@ -47,14 +50,16 @@ client1 should run
 
 To start the program, when running the program the command line argument should differ from peer-to-peer communication between two parties.
 
-```Java
+```java
 javac Capture 224.0.0.0        <224.0.0.0 is the multicast IP address for every device connected>
 ```
 
 #### Procedure
 
 1.When the program is started, sender sends message. It stores in data packets.
+
 2.Then the packets are send to a specified receivers through wifi, who are connected to the same wifi network with sender.(There are multiple receivers )
+
 3.The sender should press “ENTER” to send the audio message to the receiver client for capturing. At  the same time, receivers also should press “ENTER” for playing the received audio message.Then they can hear what sender is saying.
 
 
